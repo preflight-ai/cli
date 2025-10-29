@@ -1,0 +1,42 @@
+# .github/FUNDING.yml
+
+# GitHub Sponsors — up to 4 usernames
+github: [gvinianidzegivi]
+
+# Patreon username
+patreon: ""
+
+# Open Collective slug (change if needed)
+open_collective: "preflight-ai"
+
+# Ko-fi username
+ko_fi: ""
+
+# Tidelift: example npm/babel form
+tidelift: ""
+
+# Community Bridge project
+community_bridge: ""
+
+# Liberapay username
+liberapay: ""
+
+# IssueHunt username
+issuehunt: ""
+
+# LFX Crowdfunding project
+lfx_crowdfunding: ""
+
+# Polar username
+polar: ""
+
+# Buy Me a Coffee username
+buy_me_a_coffee: ""
+
+# thanks.dev username
+thanks_dev: ""
+
+# Custom URLs (max 4)
+custom:
+  - "https://opencollective.com/preflight-ai"
+  - "https://github.com/sponsors/gvinianidzegivi"
