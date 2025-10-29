@@ -1,0 +1,48 @@
+{
+  "name": "@preflight-ai/cli",
+  "version": "3.4.2",
+  "description": "Prefl AI code review CLI that analyzes staged changes using Groq.",
+  "bin": {
+    "prefl": "dist/index.js"
+  },
+  "type": "commonjs",
+  "main": "dist/index.js",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "dev": "ts-node src/index.ts",
+    "prepare": "npm run build"
+  },
+  "keywords": [
+    "cli",
+    "groq",
+    "code-review",
+    "pre-commit",
+    "git"
+  ],
+  "author": "prefl.run",
+  "license": "Apache-2.0",
+  "homepage": "https://prefl.run",
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "commander": "^12.1.0",
+    "dotenv": "^16.4.5",
+    "execa": "^9.3.0",
+    "fast-glob": "^3.3.2",
+    "ora": "^8.1.0",
+    "prompts": "^2.4.2"
+  },
+  "devDependencies": {
+    "@types/node": "^22.7.5",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.6.3"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
